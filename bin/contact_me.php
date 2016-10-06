@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 
 // If you are not using Composer (recommended)
-require("/sendgrid-php/sendgrid-php.php");
+//require("/sendgrid-php/sendgrid-php.php");
 
 
 // Check for empty fields
