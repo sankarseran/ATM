@@ -36,7 +36,6 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 //$headers .= "Reply-To: $email_address";   
 //$mail = new SendGrid\Mail($from, $subject, $to, $email_body, $headers);
 $mailid = getenv('MAIL_ID');
-
 echo "mail id is".$mailid;
 $from = new SendGrid\Email(null, $mailid);
 $subject = "Website Contact Form:  $name";
