@@ -3,7 +3,6 @@
 require 'vendor/autoload.php';
 
 // If you are not using Composer (recommended)
-//require("/sendgrid-php/sendgrid-php.php");
 
 
 // Check for empty fields
@@ -34,7 +33,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 //$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nYarn:$yarn\n\nProduct:$product\n\nMessage:\n$message";
 //$headers = "From: sankaralingam.psg@gmail.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 //$headers .= "Reply-To: $email_address";   
-//$mail = new SendGrid\Mail($from, $subject, $to, $email_body, $headers); hii
+//$mail = new SendGrid\Mail($from, $subject, $to, $email_body, $headers); 
 $mailid = getenv('MAIL_ID');
 echo "mail id is".$mailid;
 $from = new SendGrid\Email(null, $mailid);
