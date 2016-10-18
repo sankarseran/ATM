@@ -7,6 +7,7 @@
 /* Global Styles */
 
 html,
+
 body {
     height: 100%;
 }
@@ -91,3 +92,17 @@ footer {
         height: 70%;
     }
 }
+.h1{
+	
+	font-style:inherit !important;
+	font-family:Tahoma, Geneva, sans-serif !important;
+	color:#30F !important ;
+	}
+.p{
+	
+	font-family:"Lucida Console", Monaco, monospace !important;
+	color:#303 !important;
+	}
+.body{
+	background-color:#369;
+	}
