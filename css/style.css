@@ -2,9 +2,9 @@
 /* CSS Document */
 
 body{
-	backgroung-color:#033 !important;
+	backgroung-color:# !important;
 	font-family:"Times New Roman", Times, serif !important;
-	background: rgba(0, 0, 0, 0.5) url("file:///C:/Users/user/Desktop/Anangoor%20Textile%20Mills%20(P)%20Limited/img/Background.jpg")  center center fixed no-repeat !important;
+	background: rgba(192,192,192, 0.5) url("file:///C:/Users/user/Desktop/Anangoor%20Textile%20Mills%20(P)%20Limited/img/Background.jpg")  center center fixed no-repeat !important;
    -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
     background-size: cover !important;
