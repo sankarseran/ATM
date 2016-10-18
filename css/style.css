@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	backgroung-color:#033;
+	font-family:"Times New Roman", Times, serif !important;
+	 background: url('file:///C:/Users/user/Desktop/Anangoor%20Textile%20Mills%20(P)%20Limited/img/Background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	
+	}
+h1{
+	
+	font-style:inherit !important;
+	font-family:"Times New Roman", Times, serif;
+	color:#003 !important ;
+	}
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#003 !important;
+	}
+h3{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#003;
+	}
+h2{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#003;
+	}
+h4{
+	font-family:"MS Serif", "New York", serif;
+	color:#003;
+	}
+ul{
+	font-family:"MS Serif", "New York", serif;
+	color:#003;}
+a{
+	font-family:"Times New Roman", Times, serif;
+	color:#000
+	}
+label{
+	
+	font:"Times New Roman", Times, serif;
+	color:#003;
+	}
+ol{
+	font:Tahoma, Geneva, sans-serif !important;
+	color:#003 !important;}
+form{
+	color:#999;}
