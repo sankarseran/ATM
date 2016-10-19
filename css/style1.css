@@ -25,8 +25,8 @@ h1{
 	
 	}
 p{
-	font-family:"Book Antiqua", "Lucida Grande", sans-serif;
-	color:#240118;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#240118 !important;
 	font-size:18px;
 	
 	text-align: justify;
@@ -40,15 +40,17 @@ h2{
 	color:#ffffff;
 	font-size:24px;
 	text-decoration: underline;
+	
 	}
 h4{
 	font-family:"MS Serif", "New York", serif;
-	color:#2b002e;
+	color:#ffffff;
 	font-size:22px;
-	text-align: justify;
+	
 	}
 ul{
 	font-family:"MS Serif", "New York", serif;
+	
 	color:#003;
 	font-size:20px;}
 a{
@@ -62,7 +64,9 @@ label{
 	}
 ol{
 	font:Tahoma, Geneva, sans-serif !important;
-	color:#003 !important;}
+	color:#003 !important;
+	
+	}
 form{
 	color:#999;}
 small{
